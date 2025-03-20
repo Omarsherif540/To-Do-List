@@ -48,7 +48,7 @@ def main():
             index = int(input("Enter the task number to delete s.v.p: ")) - 1 
             delete_task(index)
         elif choice == "5": 
-            print("Goodbye!") 
+            print("byebye!") 
             break 
         else: 
             print("Invalid choice. s.v.p.") 

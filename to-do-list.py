@@ -1,4 +1,4 @@
-
+print('start')
 tasks = [] 
 def add_task(task): 
     tasks.append(task) 
@@ -51,7 +51,8 @@ def main():
             print("Goodbye!") 
             break 
         else: 
-            print("Invalid choice. Please try again.") 
+            print("Invalid choice. s.v.p.") 
             
 if __name__ == "__main__": 
     main()
+print('end')

@@ -42,10 +42,10 @@ def main():
         elif choice == "2": 
             view_tasks() 
         elif choice == "3": 
-            index = int(input("Enter the task number to mark as complete: ")) - 1 
+            index = int(input("Enter the task number to mark as complete s.v.p: ")) - 1 
             mark_task_complete(index) 
         elif choice == "4": 
-            index = int(input("Enter the task number to delete: ")) - 1 
+            index = int(input("Enter the task number to delete s.v.p: ")) - 1 
             delete_task(index)
         elif choice == "5": 
             print("Goodbye!") 

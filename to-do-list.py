@@ -34,7 +34,7 @@ def main():
         print("2. View Tasks") 
         print("3. Mark Task Complete") 
         print("4. Delete Task") 
-        print("5. Exit") 
+        print("5. quit") 
         choice = input("Choose an option: ").strip() 
         if choice == "1": 
             task = input("Enter a new task: ") 
@@ -42,10 +42,10 @@ def main():
         elif choice == "2": 
             view_tasks() 
         elif choice == "3": 
-            index = int(input("Enter the task number to mark as complete: ")) - 1 
+            index = int(input("Enter the task number to mark as complete s.v.p: ")) - 1 
             mark_task_complete(index) 
         elif choice == "4": 
-            index = int(input("Enter the task number to delete: ")) - 1 
+            index = int(input("Enter the task number to delete s.v.p: ")) - 1 
             delete_task(index)
         elif choice == "5": 
             print("Goodbye!") 
